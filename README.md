@@ -8,7 +8,7 @@ PDF manipulation library for Node.js -- merge, split, rotate, reorder, extract p
 
 Built from [Peasy PDF](https://peasypdf.com), the developer tools platform for PDF processing, conversion, and optimization.
 
-> **Try the interactive tools at [peasypdf.com](https://peasypdf.com)** -- [Merge PDF](https://peasypdf.com/tools/merge-pdf/), [Split PDF](https://peasypdf.com/tools/split-pdf/), [Rotate PDF](https://peasypdf.com/tools/rotate-pdf/)
+> **Try the interactive tools at [peasypdf.com](https://peasypdf.com)** -- merge, split, rotate, extract pages, and manage PDF metadata
 
 <p align="center">
   <img src="demo.gif" alt="peasy-pdf demo — PDF merge, split, extract text operations in terminal" width="800">
@@ -87,7 +87,7 @@ const parts = await split(document, "1-3,4-7,8-10");
 console.log(parts.length); // 3 separate PDF byte arrays
 ```
 
-Learn more: [Merge PDF Tool](https://peasypdf.com/tools/merge-pdf/) -- [Split PDF Tool](https://peasypdf.com/tools/split-pdf/)
+Learn more: [PeasyPDF](https://peasypdf.com) · [Glossary](https://peasypdf.com/glossary/)
 
 ### Rotate and Reorder
 
@@ -115,7 +115,7 @@ const reversed = await reverse(pdf);
 const oddPages = await oddEven(pdf, "odd");
 ```
 
-Learn more: [Rotate PDF Tool](https://peasypdf.com/tools/rotate-pdf/)
+Learn more: [PeasyPDF](https://peasypdf.com)
 
 ### Page Management
 
@@ -151,7 +151,7 @@ const padded = await insertBlank(pdf, undefined, {
 const doubled = await duplicatePages(pdf);
 ```
 
-Learn more: [PDF Page Tools](https://peasypdf.com/tools/)
+Learn more: [PeasyPDF](https://peasypdf.com)
 
 ### Metadata
 
@@ -184,7 +184,7 @@ const published = await setMetadata(pdf, {
 const clean = await stripMetadata(pdf);
 ```
 
-Learn more: [PDF Metadata Tool](https://peasypdf.com/tools/pdf-metadata/)
+Learn more: [PeasyPDF](https://peasypdf.com) · [Developers](https://peasypdf.com/developers/)
 
 ## TypeScript Types
 
