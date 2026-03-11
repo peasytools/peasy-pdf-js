@@ -1,0 +1,45 @@
+{
+  "name": "peasy-pdf",
+  "version": "0.1.0",
+  "description": "PDF manipulation library for Node.js — merge, split, rotate, extract text, metadata. TypeScript-first.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --dts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "pdf",
+    "merge",
+    "split",
+    "rotate",
+    "extract",
+    "metadata",
+    "peasy"
+  ],
+  "author": "Peasy Tools",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/peasytools/peasy-pdf-js.git"
+  },
+  "homepage": "https://peasypdf.com",
+  "dependencies": {
+    "pdf-lib": "^1.17"
+  },
+  "devDependencies": {
+    "tsup": "^8.0",
+    "typescript": "^5.7",
+    "vitest": "^3.0"
+  }
+}
