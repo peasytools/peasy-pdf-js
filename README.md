@@ -10,6 +10,10 @@ Built from [Peasy PDF](https://peasypdf.com), the developer tools platform for P
 
 > **Try the interactive tools at [peasypdf.com](https://peasypdf.com)** -- [Merge PDF](https://peasypdf.com/tools/merge-pdf/), [Split PDF](https://peasypdf.com/tools/split-pdf/), [Rotate PDF](https://peasypdf.com/tools/rotate-pdf/)
 
+<p align="center">
+  <img src="demo.gif" alt="peasy-pdf demo — PDF merge, split, extract text operations in terminal" width="800">
+</p>
+
 ## Table of Contents
 
 - [Install](#install)
