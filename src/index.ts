@@ -32,3 +32,21 @@ export {
   setMetadata,
   stripMetadata,
 } from "./engine.js";
+
+// API Client
+export { PeasyPdf } from "./client.js";
+export type {
+  ListOptions,
+  ListGuidesOptions,
+  ListConversionsOptions,
+  PaginatedResponse,
+  Tool,
+  Category,
+  Format,
+  Conversion,
+  GlossaryTerm,
+  Guide,
+  UseCase,
+  Site,
+  SearchResult,
+} from "./api-types.js";
