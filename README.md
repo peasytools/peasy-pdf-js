@@ -3,6 +3,7 @@
 [![npm version](https://agentgif.com/badge/npm/peasy-pdf/version.svg)](https://www.npmjs.com/package/peasy-pdf)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.7-blue)](https://www.typescriptlang.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![GitHub stars](https://agentgif.com/badge/github/peasytools/peasy-pdf-js/stars.svg)](https://github.com/peasytools/peasy-pdf-js)
 
 PDF manipulation library for Node.js -- merge, split, rotate, reorder, extract pages, and manage metadata. TypeScript-first with full type safety, powered by [pdf-lib](https://pdf-lib.js.org/) for pure-JavaScript PDF processing with zero native dependencies.
 
