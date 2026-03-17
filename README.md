@@ -89,7 +89,7 @@ const parts = await split(document, "1-3,4-7,8-10");
 console.log(parts.length); // 3 separate PDF byte arrays
 ```
 
-Learn more: [PeasyPDF](https://peasypdf.com) · [Glossary](https://peasypdf.com/glossary/)
+Learn more: [PDF Merge Tool](https://peasypdf.com/pdf/merge-pdf/) · [PDF Split Tool](https://peasypdf.com/pdf/split-pdf/) · [How to Merge PDF Files](https://peasypdf.com/guides/how-to-merge-pdf-files/)
 
 ### Rotate and Reorder
 
@@ -117,7 +117,7 @@ const reversed = await reverse(pdf);
 const oddPages = await oddEven(pdf, "odd");
 ```
 
-Learn more: [PeasyPDF](https://peasypdf.com)
+Learn more: [Rotate PDF Tool](https://peasypdf.com/pdf/rotate-pdf/) · [How to Rotate PDF Pages](https://peasypdf.com/guides/how-to-rotate-pdf-pages/) · [What is a Content Stream?](https://peasypdf.com/glossary/content-stream/)
 
 ### Page Management
 
@@ -153,7 +153,7 @@ const padded = await insertBlank(pdf, undefined, {
 const doubled = await duplicatePages(pdf);
 ```
 
-Learn more: [PeasyPDF](https://peasypdf.com)
+Learn more: [Extract PDF Pages](https://peasypdf.com/pdf/extract-pdf-pages/) · [Delete PDF Pages](https://peasypdf.com/pdf/delete-pdf-pages/) · [Insert Blank Pages](https://peasypdf.com/pdf/insert-blank-pages/)
 
 ### Metadata
 
@@ -186,7 +186,7 @@ const published = await setMetadata(pdf, {
 const clean = await stripMetadata(pdf);
 ```
 
-Learn more: [PeasyPDF](https://peasypdf.com) · [Developers](https://peasypdf.com/developers/)
+Learn more: [Edit PDF Metadata](https://peasypdf.com/pdf/edit-pdf-metadata/) · [PDF Metadata Guide](https://peasypdf.com/guides/pdf-metadata-document-properties/) · [What is PDF?](https://peasypdf.com/glossary/pdf/)
 
 ## TypeScript Types
 
@@ -274,10 +274,10 @@ Full API documentation at [peasypdf.com/developers/](https://peasypdf.com/develo
 
 ## Learn More
 
-- **Tools**: [PDF Merge](https://peasypdf.com/pdf/merge-pdf/) · [PDF Split](https://peasypdf.com/pdf/split-pdf/) · [PDF Compress](https://peasypdf.com/pdf/compress-pdf/) · [All Tools](https://peasypdf.com/)
-- **Guides**: [PDF Compression Guide](https://peasypdf.com/guides/pdf-compression-guide/) · [How to Merge PDF Files](https://peasypdf.com/guides/how-to-merge-pdf-files/) · [All Guides](https://peasypdf.com/guides/)
-- **Glossary**: [PDF](https://peasypdf.com/glossary/pdf/) · [Linearization](https://peasypdf.com/glossary/linearization/) · [OCR](https://peasypdf.com/glossary/ocr/) · [All Terms](https://peasypdf.com/glossary/)
-- **Formats**: [PDF](https://peasypdf.com/formats/pdf/) · [PDF/A](https://peasypdf.com/formats/) · [All Formats](https://peasypdf.com/formats/)
+- **Tools**: [Merge PDF](https://peasypdf.com/pdf/merge-pdf/) · [Split PDF](https://peasypdf.com/pdf/split-pdf/) · [Compress PDF](https://peasypdf.com/pdf/compress-pdf/) · [Rotate PDF](https://peasypdf.com/pdf/rotate-pdf/) · [Extract Text from PDF](https://peasypdf.com/pdf/extract-text-from-pdf/) · [All PDF Tools](https://peasypdf.com/)
+- **Guides**: [How to Merge PDF Files](https://peasypdf.com/guides/how-to-merge-pdf-files/) · [PDF Compression Guide](https://peasypdf.com/guides/pdf-compression-guide/) · [How to Split PDF Pages](https://peasypdf.com/guides/how-to-split-pdf-pages/) · [How to Rotate PDF Pages](https://peasypdf.com/guides/how-to-rotate-pdf-pages/) · [PDF Metadata & Document Properties](https://peasypdf.com/guides/pdf-metadata-document-properties/) · [All Guides](https://peasypdf.com/guides/)
+- **Glossary**: [PDF](https://peasypdf.com/glossary/pdf/) · [PDF/A](https://peasypdf.com/glossary/pdfa/) · [Linearization](https://peasypdf.com/glossary/linearization/) · [AcroForm](https://peasypdf.com/glossary/acroform/) · [OCR](https://peasypdf.com/glossary/ocr/) · [Watermark](https://peasypdf.com/glossary/watermark/) · [All Terms](https://peasypdf.com/glossary/)
+- **Formats**: [PDF](https://peasypdf.com/formats/pdf/) · [DOCX](https://peasypdf.com/formats/docx/) · [RTF](https://peasypdf.com/formats/rtf/) · [All Formats](https://peasypdf.com/formats/)
 - **API**: [REST API Docs](https://peasypdf.com/developers/) · [OpenAPI Spec](https://peasypdf.com/api/openapi.json)
 
 ## Also Available
