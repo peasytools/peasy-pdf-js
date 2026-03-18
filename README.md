@@ -12,7 +12,7 @@ Built from [Peasy PDF](https://peasypdf.com), the developer tools platform for P
 > **Try the interactive tools at [peasypdf.com](https://peasypdf.com)** -- merge, split, rotate, extract pages, and manage PDF metadata
 
 <p align="center">
-  <img src="demo.gif" alt="peasy-pdf demo — PDF merge, split, extract text operations in terminal" width="800">
+  <a href="https://agentgif.com/VtuWIMJl"><img src="https://media.agentgif.com/VtuWIMJl.gif" alt="peasy-pdf demo — PDF merge, split, extract text operations in terminal" width="800"></a>
 </p>
 
 ## Table of Contents
