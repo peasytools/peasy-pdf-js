@@ -1,6 +1,6 @@
 {
   "name": "peasy-pdf",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "PDF manipulation library for Node.js — merge, split, rotate, extract text, metadata. TypeScript-first.",
   "type": "module",
   "main": "dist/index.js",
